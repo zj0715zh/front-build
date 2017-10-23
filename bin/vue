@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+require('commander')
+  .version(require('../package').version)
+  .usage('<command> [options]')
+  .command('love', 'You are the only one in my life')
+  .parse(process.argv)
